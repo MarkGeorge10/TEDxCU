@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.project.android.tedxcairouniversity.PerformerActivity"
+    android:background="#000">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:padding="10dp"
+
+        android:gravity="center"
+        android:id="@+id/ll">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:id="@+id/performer1"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/IMGperformer1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:background="@drawable/mahoudper"
+                    android:padding="10dp" />
+
+
+
+                <TextView
+
+                    android:id="@+id/Textperformer1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Mahoumd Gamal"
+                    android:textColor="@android:color/background_light" />
+
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/performer2"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/IMGperformer2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:background="@drawable/may"
+                    android:padding="10dp"
+                    />
+
+
+
+                <TextView
+
+                    android:id="@+id/Textperformer2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="May Abdel Aziz"
+                    android:textColor="@android:color/background_light" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:id="@+id/performer3"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/IMGperformer3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:background="@drawable/nourhan"
+                    android:padding="10dp"
+                    />
+
+
+
+                <TextView
+
+                    android:id="@+id/Textperformer3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Nourhan Abo Bakar"
+                    android:textColor="@android:color/background_light" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/performer4"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/IMGperformer4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:background="@drawable/silh"
+                    android:padding="10dp" />
+
+
+
+                <TextView
+
+                    android:id="@+id/Textperformer4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Silhouette"
+                    android:textColor="@android:color/background_light" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    <LinearLayout
+
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:id="@+id/performer5"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/IMGperformer5"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:background="@drawable/essam"
+                android:padding="10dp"
+                />
+
+            <TextView
+
+                android:id="@+id/Textperformer5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Mohammad Essam "
+                android:textColor="@android:color/background_light" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/performer6"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/IMperformer6"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:background="@drawable/konafa"
+                android:padding="10dp"
+                />
+
+            <TextView
+
+                android:id="@+id/Textperformer6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Mahmoud Konafa"
+                android:textColor="@android:color/background_light" />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

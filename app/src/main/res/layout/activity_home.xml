@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.project.android.tedxcairouniversity.HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="#000"
+        android:id="@+id/ll">
+
+
+        <LinearLayout
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:id="@+id/News_button"
+                android:layout_width="400dp"
+                android:layout_height="175dp"
+                android:background="@drawable/logo"
+                android:gravity="center"
+
+                android:orientation="vertical"
+               >
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+
+
+
+            <LinearLayout
+                android:id="@+id/Local_button"
+                android:layout_width="175dp"
+                android:layout_height="250dp"
+                android:background="@drawable/map"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical"
+                >
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/Agenda_button"
+                android:layout_width="175dp"
+                android:layout_height="250dp"
+                android:gravity="center"
+
+                android:orientation="vertical"
+                android:background="@drawable/agenda"
+                android:weightSum="1">
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+
+
+            <LinearLayout
+                android:id="@+id/Sponor_button"
+                android:layout_width="175dp"
+                android:layout_height="150dp"
+                android:background="@drawable/spon"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical"
+                >
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/speakers_button"
+                android:layout_width="175dp"
+                android:layout_height="150dp"
+                android:gravity="center"
+
+                android:orientation="vertical"
+                android:background="@drawable/speakers"
+                android:weightSum="1">
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/watchus_button"
+                android:layout_width="400dp"
+                android:layout_height="175dp"
+                android:background="@drawable/watch"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:id="@+id/Performer_button"
+                android:layout_width="175dp"
+                android:layout_height="150dp"
+                android:background="@drawable/p"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/About_button"
+                android:layout_width="175dp"
+                android:layout_height="150dp"
+                android:gravity="center"
+
+                android:orientation="vertical"
+                android:background="@drawable/about"
+                android:weightSum="1">
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
